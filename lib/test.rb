@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
-numbers = [1, 2, 3, 4, 5, 6]
-even_numbers = numbers.select { |n| n.even? }
-p even_numbers
+names = ['田中','鈴木','佐藤']
+names.map do |name|
+  "#{name}さん"
+end.join('と')
